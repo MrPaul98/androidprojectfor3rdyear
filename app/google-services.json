@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267635444095",
+    "firebase_url": "https://collegelove.firebaseio.com",
+    "project_id": "collegelove",
+    "storage_bucket": "collegelove.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267635444095:android:67c17340447a0ed63e724a",
+        "android_client_info": {
+          "package_name": "com.example.collegelove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267635444095-6or1fhakrpbjf4sr7cgrmbcldsri2b8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegelove",
+            "certificate_hash": "70ffb31064639f68912aa1d1121561abce482e01"
+          }
+        },
+        {
+          "client_id": "267635444095-b5hvgo1m03p0t6rjh05h0etvr6es7vmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATZS02EAilv-llFcAV8ZDe2lFEMn8wQvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267635444095-b5hvgo1m03p0t6rjh05h0etvr6es7vmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/setstatus"
+       android:icon="@drawable/editstatusandbio"
+       android:title="Change Status"/>
+    <item
+        android:id="@+id/Chgbio"
+        android:icon="@drawable/editstatusandbio"
+        android:title="Change Bio"/>
+    <item
+        android:id="@+id/chgimg"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:title="Change Image"/>
+    <item
+        android:id="@+id/bak"
+        android:icon="@drawable/back"
+        android:title="Back"/>
+
+</menu>

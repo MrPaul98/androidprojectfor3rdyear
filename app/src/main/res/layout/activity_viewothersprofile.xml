@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+    tools:context=".viewothersprofile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".viewothersprofile">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/otherpagetoolbar" android:id="@+id/prolb"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/othprocrvm"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center"
+        android:src="@drawable/addpic"/>
+
+
+    <TextView
+        android:id="@+id/othpronm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Name"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/othprost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:hint="Status"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/othprocld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:hint="College_ID"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/othprobio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:hint="Bio"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Crush request"
+            android:background="@drawable/buttonround"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/cru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="delete request"
+            android:background="@drawable/buttonround"
+            android:textColor="@color/black"
+            android:layout_marginBottom="100dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

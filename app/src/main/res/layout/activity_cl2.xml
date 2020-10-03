@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cl2">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".cl2">
+
+       <include layout="@layout/otherpagetoolbar"
+           android:id="@+id/logbar"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:src="@mipmap/piclog" />
+
+
+
+        <EditText
+            android:id="@+id/loge"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            android:hint="Email"
+            android:textSize="30dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/logp"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            android:hint="password"
+            android:textSize="30dp"
+            android:inputType="textPassword"/>
+        <CheckBox
+            android:id="@+id/ck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:text="Remember me"/>
+
+        <Button
+            android:id="@+id/logbut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/logroundbut"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/linkfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="forgot password?"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="right"
+            android:textColor="@color/colorPrimaryDark"/>
+        <Button
+            android:id="@+id/createaccbut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/logroundbut"
+            android:textStyle="bold"
+            android:text="Create New Account"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/set"
+        android:icon="@drawable/profilesetting"
+        android:title="Profile Setting"/>
+    <item
+        android:id="@+id/usr"
+        android:icon="@drawable/findcrush"
+        android:title="Find Crush"/>
+</group>
+</menu>
