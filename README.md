@@ -7,4 +7,4 @@ Dating application.<br>
 <img src="image/5.png" width="300" height="600">
 <img src="image/6.png" width="300" height="600">
 <img src="image/7.png" width="300" height="600">
-<img src="./image/2.png" width="300" height="600">
+<img src="image/2.png" width="300" height="600">
